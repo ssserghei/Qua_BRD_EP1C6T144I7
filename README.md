@@ -1,0 +1,2 @@
+# Qua_BRD_EP1C6T144I7
+ Quartus project for BRD_EP1C6T144I7
