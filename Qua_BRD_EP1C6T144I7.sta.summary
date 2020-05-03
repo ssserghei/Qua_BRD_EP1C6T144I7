@@ -1,0 +1,33 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'lpm_counter:inst3|cntr_8nf:auto_generated|safe_q[20]'
+Slack : -1.386
+TNS   : -3.963
+
+Type  : Setup 'inst|altpll_component|pll|clk[0]'
+Slack : -0.362
+TNS   : -0.362
+
+Type  : Hold 'inst|altpll_component|pll|clk[0]'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Hold 'lpm_counter:inst3|cntr_8nf:auto_generated|safe_q[20]'
+Slack : 1.014
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'lpm_counter:inst3|cntr_8nf:auto_generated|safe_q[20]'
+Slack : -1.062
+TNS   : -10.620
+
+Type  : Minimum Pulse Width '16'
+Slack : 4.545
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'inst|altpll_component|pll|clk[0]'
+Slack : 18.436
+TNS   : 0.000
+
+------------------------------------------------------------
