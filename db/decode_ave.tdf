@@ -1,5 +1,5 @@
 --lpm_decode CASCADE_CHAIN="MANUAL" DEVICE_FAMILY="Cyclone" IGNORE_CASCADE_BUFFERS="OFF" LPM_DECODES=8 LPM_WIDTH=3 data eq CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=48
---VERSION_BEGIN 11.0 cbx_cycloneii 2011:04:27:21:07:19:SJ cbx_lpm_add_sub 2011:04:27:21:07:19:SJ cbx_lpm_compare 2011:04:27:21:07:19:SJ cbx_lpm_decode 2011:04:27:21:07:19:SJ cbx_mgl 2011:04:27:21:11:03:SJ cbx_stratix 2011:04:27:21:07:19:SJ cbx_stratixii 2011:04:27:21:07:19:SJ  VERSION_END
+--VERSION_BEGIN 11.0SP1 cbx_cycloneii 2011:07:03:21:05:55:SJ cbx_lpm_add_sub 2011:07:03:21:05:55:SJ cbx_lpm_compare 2011:07:03:21:05:55:SJ cbx_lpm_decode 2011:07:03:21:05:55:SJ cbx_mgl 2011:07:03:21:07:56:SJ cbx_stratix 2011:07:03:21:05:55:SJ cbx_stratixii 2011:07:03:21:05:55:SJ  VERSION_END
 
 
 -- Copyright (C) 1991-2011 Altera Corporation
