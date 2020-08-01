@@ -1,5 +1,5 @@
 Fitter report for Qua_BRD_EP1C6T144I7
-Fri Jul 31 15:00:52 2020
+Sat Aug 01 21:52:18 2020
 Quartus II 64-Bit Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
 
 
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+
 ; Fitter Summary                                                             ;
 +---------------------------+------------------------------------------------+
-; Fitter Status             ; Successful - Fri Jul 31 15:00:52 2020          ;
+; Fitter Status             ; Successful - Sat Aug 01 21:52:18 2020          ;
 ; Quartus II 64-Bit Version ; 11.0 Build 208 07/03/2011 SP 1 SJ Full Version ;
 ; Revision Name             ; Qua_BRD_EP1C6T144I7                            ;
 ; Top-level Entity Name     ; Qua_BRD_EP1C6T144I7                            ;
@@ -129,16 +129,15 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 6           ;
-; Maximum allowed            ; 6           ;
+; Number detected on machine ; 2           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Average used               ; 1.50        ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     1 processor            ; 100.0%      ;
-;     2-4 processors         ; < 0.1%      ;
-;     5-6 processors         ;   0.0%      ;
+;     2 processors           ;  33.3%      ;
 +----------------------------+-------------+
 
 
@@ -180,7 +179,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/SimpalsGarage/Desktop/Qua_BRD_EP1C6T144I7/Qua_BRD_EP1C6T144I7.pin.
+The pin-out file can be found in D:/GitHub/Quartus/Qua_BRD_EP1C6T144I7/Qua_BRD_EP1C6T144I7.pin.
 
 
 +---------------------------------------------------------------------------------------------------+
@@ -1123,9 +1122,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Fitter
     Info: Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
-    Info: Processing started: Fri Jul 31 15:00:50 2020
+    Info: Processing started: Sat Aug 01 21:52:15 2020
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off Qua_BRD_EP1C6T144I7 -c Qua_BRD_EP1C6T144I7
-Info: Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info: Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info: Selected device EP1C6T144I7 for design "Qua_BRD_EP1C6T144I7"
 Info: Implementing parameter values for PLL "altpll0:inst|altpll:altpll_component|pll"
     Info: Implementing clock multiplication of 32, clock division of 55, and phase shift of 0 degrees (0 ps) for altpll0:inst|altpll:altpll_component|_clk0 port
@@ -1159,7 +1158,7 @@ Info: Starting register packing
 Info: Fitter is using Normal packing mode for logic elements with Auto setting for Auto Packed Registers logic option
 Info: Finished moving registers into I/O cells, LUTs, and RAM blocks
 Info: Finished register packing
-Info: Fitter preparation operations ending: elapsed time is 00:00:00
+Info: Fitter preparation operations ending: elapsed time is 00:00:01
 Info: Fitter placement preparation operations beginning
 Info: Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info: Fitter placement operations beginning
@@ -1176,17 +1175,17 @@ Info: Completed Fixed Delay Chain Operation
 Info: Started post-fitting delay annotation
 Info: Delay annotation completed successfully
 Info: Completed Auto Delay Chain Operation
-Info: Generated suppressed messages file C:/Users/SimpalsGarage/Desktop/Qua_BRD_EP1C6T144I7/Qua_BRD_EP1C6T144I7.fit.smsg
+Info: Generated suppressed messages file D:/GitHub/Quartus/Qua_BRD_EP1C6T144I7/Qua_BRD_EP1C6T144I7.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4622 megabytes
-    Info: Processing ended: Fri Jul 31 15:00:52 2020
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 401 megabytes
+    Info: Processing ended: Sat Aug 01 21:52:18 2020
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/SimpalsGarage/Desktop/Qua_BRD_EP1C6T144I7/Qua_BRD_EP1C6T144I7.fit.smsg.
+The suppressed messages can be found in D:/GitHub/Quartus/Qua_BRD_EP1C6T144I7/Qua_BRD_EP1C6T144I7.fit.smsg.
 
 

@@ -1,5 +1,5 @@
 Flow report for Qua_BRD_EP1C6T144I7
-Fri Jul 31 15:00:54 2020
+Sat Aug 01 21:52:21 2020
 Quartus II 64-Bit Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+
 ; Flow Summary                                                               ;
 +---------------------------+------------------------------------------------+
-; Flow Status               ; Successful - Fri Jul 31 15:00:53 2020          ;
+; Flow Status               ; Successful - Sat Aug 01 21:52:20 2020          ;
 ; Quartus II 64-Bit Version ; 11.0 Build 208 07/03/2011 SP 1 SJ Full Version ;
 ; Revision Name             ; Qua_BRD_EP1C6T144I7                            ;
 ; Top-level Entity Name     ; Qua_BRD_EP1C6T144I7                            ;
@@ -58,29 +58,31 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/31/2020 15:00:48 ;
+; Start date & time ; 08/01/2020 21:52:12 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Qua_BRD_EP1C6T144I7 ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                 ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 159090360422177.159619684818028 ; --            ; --          ; --         ;
-; IP_TOOL_NAME                        ; ALTPLL                          ; --            ; --          ; --         ;
-; IP_TOOL_VERSION                     ; 11.0                            ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 100                             ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --         ;
-; MISC_FILE                           ; altpll0.bsf                     ; --            ; --          ; --         ;
-; MISC_FILE                           ; altpll0_bb.v                    ; --            ; --          ; --         ;
-; MISC_FILE                           ; altpll0.ppf                     ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top        ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top        ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
++----------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                               ;
++-------------------------------------+-------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                         ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+-------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 1095651064168.159630793108532 ; --            ; --          ; --         ;
+; ENABLE_SIGNALTAP                    ; On                            ; --            ; --          ; --         ;
+; IP_TOOL_NAME                        ; ALTPLL                        ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 11.0                          ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 100                           ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; altpll0.bsf                   ; --            ; --          ; --         ;
+; MISC_FILE                           ; altpll0_bb.v                  ; --            ; --          ; --         ;
+; MISC_FILE                           ; altpll0.ppf                   ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; 16764057                      ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING         ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                        ; --            ; --          ; Top        ;
+; USE_SIGNALTAP_FILE                  ; stp1.stp                      ; --            ; --          ; --         ;
++-------------------------------------+-------------------------------+---------------+-------------+------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -88,11 +90,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4511 MB             ; 00:00:02                           ;
-; Fitter                    ; 00:00:02     ; 1.0                     ; 4622 MB             ; 00:00:02                           ;
-; Assembler                 ; 00:00:00     ; 1.0                     ; 4437 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4463 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:05     ; --                      ; --                  ; 00:00:06                           ;
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 350 MB              ; 00:00:02                           ;
+; Fitter                    ; 00:00:03     ; 1.5                     ; 401 MB              ; 00:00:03                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 287 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 307 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:09     ; --                      ; --                  ; 00:00:07                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -101,10 +103,10 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-LGQIDR1  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; DESKTOP-LGQIDR1  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; DESKTOP-LGQIDR1  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-LGQIDR1  ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; SSS_notebok-PC   ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; SSS_notebok-PC   ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; SSS_notebok-PC   ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; SSS_notebok-PC   ; Windows 7 ; 6.1        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
